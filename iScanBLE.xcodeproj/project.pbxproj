@@ -13,6 +13,8 @@
 		0699335029E402D00054C6FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0699334E29E402D00054C6FC /* Main.storyboard */; };
 		0699335229E402D40054C6FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0699335129E402D40054C6FC /* Assets.xcassets */; };
 		0699335529E402D40054C6FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0699335329E402D40054C6FC /* LaunchScreen.storyboard */; };
+		0699335E29E4103B0054C6FC /* DeviceNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0699335C29E4103B0054C6FC /* DeviceNameTableViewCell.swift */; };
+		0699335F29E4103B0054C6FC /* DeviceNameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0699335D29E4103B0054C6FC /* DeviceNameTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0699335129E402D40054C6FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0699335429E402D40054C6FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0699335629E402D40054C6FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0699335C29E4103B0054C6FC /* DeviceNameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceNameTableViewCell.swift; sourceTree = "<group>"; };
+		0699335D29E4103B0054C6FC /* DeviceNameTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeviceNameTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				0699335129E402D40054C6FC /* Assets.xcassets */,
 				0699335329E402D40054C6FC /* LaunchScreen.storyboard */,
 				0699335629E402D40054C6FC /* Info.plist */,
+				0699335C29E4103B0054C6FC /* DeviceNameTableViewCell.swift */,
+				0699335D29E4103B0054C6FC /* DeviceNameTableViewCell.xib */,
 			);
 			path = iScanBLE;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0699335F29E4103B0054C6FC /* DeviceNameTableViewCell.xib in Resources */,
 				0699335529E402D40054C6FC /* LaunchScreen.storyboard in Resources */,
 				0699335229E402D40054C6FC /* Assets.xcassets in Resources */,
 				0699335029E402D00054C6FC /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0699335E29E4103B0054C6FC /* DeviceNameTableViewCell.swift in Sources */,
 				0699334D29E402D00054C6FC /* ViewController.swift in Sources */,
 				0699334929E402D00054C6FC /* AppDelegate.swift in Sources */,
 				0699334B29E402D00054C6FC /* SceneDelegate.swift in Sources */,
